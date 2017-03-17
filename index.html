@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <style lang="css">
+        .contains {
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .carousel {
+            width: 3000px;
+            position: absolute;
+            transform: all 1000ms ease;
+        }
+        
+        .contains .carousel .ca-item {
+            float: left;
+            width: 600px;
+            height: 350px;
+        }
+        
+        .contains .carousel .ca-item img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contains">
+        <div class="carousel" id="carousel">
+            <div class="ca-item">
+                <img src="http://img.ivsky.com/img/tupian/201007/26/xinxinanjiaowaifengjing-007.jpg" alt="">
+            </div>
+            <div class="ca-item">
+                <img src="http://img05.tooopen.com/images/20151024/tooopen_sy_146160061542.jpg" alt="">
+            </div>
+            <div class="ca-item">
+                <img src="http://www.anhuiyubo.com/a/img/e/f/e/3/f/9/37251.jpg" alt="">
+            </div>
+            <div class="ca-item">
+                <img src="http://pic.qiantucdn.com/58pic/17/76/92/29358PICxSf_1024.jpg" alt="">
+            </div>
+            <div class="ca-item">
+                <img src="http://image.tuku.china.com/tuku.travel.china.com/travel//pic/2009-01-04/43a086c5-a2d7-4f10-95b2-1c6f8dcca995.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var i = 0;
+
+        function carouselEvent() {
+            var carousel = document.getElementById('carousel');
+            setInterval(function() {
+                console.log(i++);
+                if (i > 4) i = 0;
+                carousel.style.left = i * -600 + 'px';
+            }, 5000)
+
+        }
+        carouselEvent();
+    </script>
+</body>
+
+</html>
