@@ -1,0 +1,19 @@
+{
+  "name": "carousel",
+  "version": "1.0.0",
+  "description": "* 首先需要几张图片\t <img src=\"http://img.ivsky.com/img/tupian/201007/26/xinxinanjiaowaifengjing-007.jpg\" width=\"200\" height=\"120px\"> <img src=\"http://img05.tooopen.com/images/20151024/tooopen_sy_146160061542.jpg\" width=\"200\" height=\"120px\"> <img src=\"http://www.anhuiyubo.com/a/img/e/f/e/3/f/9/37251.jpg\" width=\"200\" height=\"120px\"> <img src=\"http://pic.qiantucdn.com/58pic/17/76/92/29358PICxSf_1024.jpg\" width=\"200\" height=\"120px\"> <img src=\"http://image.tuku.china.com/tuku.travel.china.com/travel//pic/2009-01-04/43a086c5-a2d7-4f10-95b2-1c6f8dcca995.jpg\" width=\"200\" height=\"120px\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abigaleypc/carousel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abigaleypc/carousel/issues"
+  },
+  "homepage": "https://github.com/abigaleypc/carousel#readme"
+}
